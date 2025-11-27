@@ -1,6 +1,16 @@
 = README.adoc
 
-Install MCP on Codex:
+First things first. Understand the problem this MCP solves:
+
+[.text-center]
+*https://www.linkedin.com/feed/update/urn:li:activity:7397034728618377217/*
+
+Next, install Codex. Here is an example of how to do this:
+
+[.text-center]
+*https://www.linkedin.com/feed/update/urn:li:activity:7397586658335920128/*
+
+Next, install MCP on Codex:
 
 [,bash]
 ----
