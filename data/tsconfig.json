@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": ".",
+    "outDir": "./dist",
+    "types": ["node"],
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "include": ["types.ts", "events/**/*.ts", "generate.ts"]
+}

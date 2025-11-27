@@ -1,0 +1,456 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "slug": "1",
+      "date": "2025-12-13",
+      "primaryLanguage": "pt-br",
+      "schedule": {
+        "timezoneCountry": "br",
+        "timezoneId": "America/Sao_Paulo",
+        "periods": [
+          {
+            "start": "08:30",
+            "end": "12:30",
+            "label": {
+              "pt": "Manhã:",
+              "en": "Morning:"
+            }
+          },
+          {
+            "start": "13:30",
+            "end": "17:30",
+            "label": {
+              "pt": "Tarde:",
+              "en": "Afternoon:"
+            }
+          }
+        ]
+      },
+      "translations": {
+        "pt": {
+          "title": "AI Boost Day #1",
+          "subtitle": "Será um dia intenso no qual você aprenderá um processo robusto, orquestrado por um programador sênior e uma IA generativa, para tornar seu problema em uma solução real e escalável em tempo recorde.",
+          "summary": "Neste evento você verá na prática como usar uma IA para escrever uma solução muito melhor e mais rápida do que você seria capaz.",
+          "location": "Presencial em Brasília ou online (via videoconferência)",
+          "heroCtaLabel": "Garantir minha vaga",
+          "secondaryCtaLabel": "Ver como funciona"
+        },
+        "en": {
+          "title": "AI Boost Day #1",
+          "subtitle": "It will be an intense day where you'll learn a robust process, orchestrated by a senior programmer and a generative AI, to turn your problem into a real, scalable solution in record time.",
+          "summary": "In this event you'll see in practice how to use an AI to write a solution far better and faster than you could on your own.",
+          "location": "In-person in Brasilia or online (via videoconference)",
+          "heroCtaLabel": "Secure my spot",
+          "secondaryCtaLabel": "See how it works"
+        }
+      },
+      "sections": {
+        "intro": {
+          "pt": {
+            "title": "Antes do evento: seus passos",
+            "items": [
+              "Use o {AIBoostBot} para baixar *GRATUITAMENTE* o documento \"Arquitetura de Referência\".",
+              "Inscreva-se. {EscolhaOPlanoIdealParaVoce}.",
+              "Elabore o seu projeto. Use o {AIBoostBot} para avaliar se ele se enquadra na arquiteutra.",
+              "Submeta o seu projeto para que ele participe do proceso de votação.",
+              "Avalie os outros projetos submetidos para participar da votação na manhã do evento."
+            ]
+          },
+          "en": {
+            "title": "Before the event: your steps",
+            "items": [
+              "Use {AIBoostBot} to download the *FREE* \"Reference Architecture\" document.",
+              "Sign up. {EscolhaOPlanoIdealParaVoce}.",
+              "Draft your project. Use {AIBoostBot} to check if it fits the architecture.",
+              "Submit your project so it joins the voting process.",
+              "Review the other submitted projects to take part in the morning vote on the event day."
+            ]
+          }
+        },
+        "howItWorks": {
+          "pt": [
+            {
+              "title": "Manhã: votação e construção do projeto",
+              "items": [
+                "Votação no projeto que será desenvolvido nesta edição.",
+                "Revisão, clara e objetiva, dos problemas que tentaremos solutionar no projeto.",
+                "Implementação e testes através de prompts para a IA e da revisão humana."
+              ]
+            },
+            {
+              "title": "Tarde: dissecação, aprendizado e próximos passos",
+              "items": [
+                "Análise crítica da solução construída pela IA + humano.",
+                "Discussão de alternativas e ferramentas.",
+                "Roadmap e próximos passos para o projeto.",
+                "Espaço para perguntas abertas sobre IA aplicada ao dia a dia.",
+                "Registro dos aprendizados principais da edição."
+              ]
+            }
+          ],
+          "en": [
+            {
+              "title": "Morning: voting and building the project",
+              "items": [
+                "Vote on the project that will be built in this edition.",
+                "Clear, objective review of the problems we'll try to solve in the project.",
+                "Implementation and testing via prompts to the AI plus human review."
+              ]
+            },
+            {
+              "title": "Afternoon: dissection, learning, and next steps",
+              "items": [
+                "Critical analysis of the solution built by AI + human.",
+                "Discussion of alternatives and tools.",
+                "Roadmap and next steps for the project.",
+                "Open Q&A on AI applied to everyday work.",
+                "Recording the edition's key learnings."
+              ]
+            }
+          ]
+        },
+        "plans": {
+          "pt": {
+            "primary": [
+              {
+                "name": "Plano Bronze",
+                "price": "R$ X",
+                "note": "Acesso apenas a este evento",
+                "cta": "Escolher Bronze",
+                "button": "outline",
+                "features": [
+                  "Participação ao vivo neste AI Boost Day.",
+                  "Acesso à gravação por tempo limitado.",
+                  "Material base apresentado durante o dia."
+                ]
+              },
+              {
+                "name": "Plano Prata",
+                "price": "R$ Y",
+                "note": "Ideal para quem quer aprender com outras edições",
+                "cta": "Escolher Prata",
+                "button": "primary",
+                "badge": "Mais escolhido",
+                "features": [
+                  "Tudo do Bronze.",
+                  "Acesso ao material produzido em ocorrências passadas.",
+                  "Acesso às gravações anteriores enquanto o plano estiver ativo.",
+                  "Entrada em comunidade privada de participantes."
+                ]
+              },
+              {
+                "name": "Plano Ouro",
+                "price": "R$ Z",
+                "note": "Pensado para quem quer acompanhar várias edições",
+                "cta": "Escolher Ouro",
+                "button": "outline",
+                "features": [
+                  "Tudo do Prata.",
+                  "Acesso a esta edição + mais duas futuras.",
+                  "Prioridade na seleção de problemas para votação."
+                ]
+              }
+            ],
+            "diamond": [
+              {
+                "name": "Plano Diamante",
+                "price": "R$ W",
+                "note": "Para quem quer acompanhamento próximo e direção estratégica",
+                "cta": "Escolher Diamante",
+                "button": "outline",
+                "features": [
+                  "Tudo do Plano Ouro.",
+                  "+ 2 horas de mentoria individual com agenda combinada.",
+                  "Discussão de arquitetura, roadmap ou estratégia de produto."
+                ]
+              }
+            ]
+          },
+          "en": {
+            "primary": [
+              {
+                "name": "Bronze Plan",
+                "price": "R$ X",
+                "note": "Access only to this event",
+                "cta": "Choose Bronze",
+                "button": "outline",
+                "features": [
+                  "Live participation in this AI Boost Day.",
+                  "Access to the recording for a limited time.",
+                  "Core materials presented during the day."
+                ]
+              },
+              {
+                "name": "Silver Plan",
+                "price": "R$ Y",
+                "note": "Ideal for those who want to learn from other editions",
+                "cta": "Choose Silver",
+                "button": "primary",
+                "badge": "Most chosen",
+                "features": [
+                  "Everything in Bronze.",
+                  "Access to materials produced in past editions.",
+                  "Access to previous recordings while the plan stays active.",
+                  "Entry to a private participant community."
+                ]
+              },
+              {
+                "name": "Gold Plan",
+                "price": "R$ Z",
+                "note": "Designed for those who want to follow multiple editions",
+                "cta": "Choose Gold",
+                "button": "outline",
+                "features": [
+                  "Everything in Silver.",
+                  "Access to this edition + two future ones.",
+                  "Priority in selecting problems for voting."
+                ]
+              }
+            ],
+            "diamond": [
+              {
+                "name": "Diamond Plan",
+                "price": "R$ W",
+                "note": "For those who want close guidance and strategic direction",
+                "cta": "Choose Diamond",
+                "button": "outline",
+                "features": [
+                  "Everything in the Gold Plan.",
+                  "+ 2 hours of 1:1 mentoring with scheduled time.",
+                  "Discussion of architecture, roadmap, or product strategy."
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "slug": "2",
+      "date": "2026-01-10",
+      "primaryLanguage": "pt-br",
+      "schedule": {
+        "timezoneCountry": "pt",
+        "timezoneId": "Europe/Lisbon",
+        "periods": [
+          {
+            "start": "09:00",
+            "end": "13:00",
+            "label": {
+              "pt": "Manhã:",
+              "en": "Morning:"
+            }
+          },
+          {
+            "start": "14:00",
+            "end": "18:00",
+            "label": {
+              "pt": "Tarde:",
+              "en": "Afternoon:"
+            }
+          }
+        ]
+      },
+      "translations": {
+        "pt": {
+          "title": "AI Boost Day #2",
+          "subtitle": "Será um dia intenso no qual você aprenderá um processo robusto, orquestrado por um programador sênior e uma IA generativa, para tornar seu problema em uma solução real e escalável em tempo recorde.",
+          "summary": "Neste evento você verá na prática como usar uma IA para escrever uma solução muito melhor e mais rápida do que você seria capaz.",
+          "location": "Online (via videoconferência)",
+          "heroCtaLabel": "Garantir minha vaga",
+          "secondaryCtaLabel": "Ver como funciona"
+        },
+        "en": {
+          "title": "AI Boost Day #2",
+          "subtitle": "It will be an intense day where you'll learn a robust process, orchestrated by a senior programmer and a generative AI, to turn your problem into a real, scalable solution in record time.",
+          "summary": "In this event you'll see in practice how to use an AI to write a solution far better and faster than you could on your own.",
+          "location": "Online (via videoconference)",
+          "heroCtaLabel": "Secure my spot",
+          "secondaryCtaLabel": "See how it works"
+        }
+      },
+      "sections": {
+        "intro": {
+          "pt": {
+            "title": "Antes do evento: seus passos",
+            "items": [
+              "Use o {AIBoostBot} para baixar *GRATUITAMENTE* o documento \"Arquitetura de Referência\".",
+              "Inscreva-se. {EscolhaOPlanoIdealParaVoce}.",
+              "Elabore o seu projeto. Use o {AIBoostBot} para avaliar se ele se enquadra na arquiteutra.",
+              "Submeta o seu projeto para que ele participe do proceso de votação.",
+              "Avalie os outros projetos submetidos para participar da votação na manhã do evento."
+            ]
+          },
+          "en": {
+            "title": "Before the event: your steps",
+            "items": [
+              "Use {AIBoostBot} to download the *FREE* \"Reference Architecture\" document.",
+              "Sign up. {EscolhaOPlanoIdealParaVoce}.",
+              "Draft your project. Use {AIBoostBot} to check if it fits the architecture.",
+              "Submit your project so it joins the voting process.",
+              "Review the other submitted projects to take part in the morning vote on the event day."
+            ]
+          }
+        },
+        "howItWorks": {
+          "pt": [
+            {
+              "title": "Manhã: votação e construção do projeto",
+              "items": [
+                "Votação no projeto que será desenvolvido nesta edição.",
+                "Revisão, clara e objetiva, dos problemas que tentaremos solutionar no projeto.",
+                "Implementação e testes através de prompts para a IA e da revisão humana."
+              ]
+            },
+            {
+              "title": "Tarde: dissecação, aprendizado e próximos passos",
+              "items": [
+                "Análise crítica da solução construída pela IA + humano.",
+                "Discussão de alternativas e ferramentas.",
+                "Roadmap e próximos passos para o projeto.",
+                "Espaço para perguntas abertas sobre IA aplicada ao dia a dia.",
+                "Registro dos aprendizados principais da edição."
+              ]
+            }
+          ],
+          "en": [
+            {
+              "title": "Morning: voting and building the project",
+              "items": [
+                "Vote on the project that will be built in this edition.",
+                "Clear, objective review of the problems we'll try to solve in the project.",
+                "Implementation and testing via prompts to the AI plus human review."
+              ]
+            },
+            {
+              "title": "Afternoon: dissection, learning, and next steps",
+              "items": [
+                "Critical analysis of the solution built by AI + human.",
+                "Discussion of alternatives and tools.",
+                "Roadmap and next steps for the project.",
+                "Open Q&A on AI applied to everyday work.",
+                "Recording the edition's key learnings."
+              ]
+            }
+          ]
+        },
+        "plans": {
+          "pt": {
+            "primary": [
+              {
+                "name": "Plano Bronze",
+                "price": "R$ X",
+                "note": "Acesso apenas a este evento",
+                "cta": "Escolher Bronze",
+                "button": "outline",
+                "features": [
+                  "Participação ao vivo neste AI Boost Day.",
+                  "Acesso à gravação por tempo limitado.",
+                  "Material base apresentado durante o dia."
+                ]
+              },
+              {
+                "name": "Plano Prata",
+                "price": "R$ Y",
+                "note": "Ideal para quem quer aprender com outras edições",
+                "cta": "Escolher Prata",
+                "button": "primary",
+                "badge": "Mais escolhido",
+                "features": [
+                  "Tudo do Bronze.",
+                  "Acesso ao material produzido em ocorrências passadas.",
+                  "Acesso às gravações anteriores enquanto o plano estiver ativo.",
+                  "Entrada em comunidade privada de participantes."
+                ]
+              },
+              {
+                "name": "Plano Ouro",
+                "price": "R$ Z",
+                "note": "Pensado para quem quer acompanhar várias edições",
+                "cta": "Escolher Ouro",
+                "button": "outline",
+                "features": [
+                  "Tudo do Prata.",
+                  "Acesso a esta edição + mais duas futuras.",
+                  "Prioridade na seleção de problemas para votação."
+                ]
+              }
+            ],
+            "diamond": [
+              {
+                "name": "Plano Diamante",
+                "price": "R$ W",
+                "note": "Para quem quer acompanhamento próximo e direção estratégica",
+                "cta": "Escolher Diamante",
+                "button": "outline",
+                "features": [
+                  "Tudo do Plano Ouro.",
+                  "+ 2 horas de mentoria individual com agenda combinada.",
+                  "Discussão de arquitetura, roadmap ou estratégia de produto."
+                ]
+              }
+            ]
+          },
+          "en": {
+            "primary": [
+              {
+                "name": "Bronze Plan",
+                "price": "R$ X",
+                "note": "Access only to this event",
+                "cta": "Choose Bronze",
+                "button": "outline",
+                "features": [
+                  "Live participation in this AI Boost Day.",
+                  "Access to the recording for a limited time.",
+                  "Core materials presented during the day."
+                ]
+              },
+              {
+                "name": "Silver Plan",
+                "price": "R$ Y",
+                "note": "Ideal for those who want to learn from other editions",
+                "cta": "Choose Silver",
+                "button": "primary",
+                "badge": "Most chosen",
+                "features": [
+                  "Everything in Bronze.",
+                  "Access to materials produced in past editions.",
+                  "Access to previous recordings while the plan stays active.",
+                  "Entry to a private participant community."
+                ]
+              },
+              {
+                "name": "Gold Plan",
+                "price": "R$ Z",
+                "note": "Designed for those who want to follow multiple editions",
+                "cta": "Choose Gold",
+                "button": "outline",
+                "features": [
+                  "Everything in Silver.",
+                  "Access to this edition + two future ones.",
+                  "Priority in selecting problems for voting."
+                ]
+              }
+            ],
+            "diamond": [
+              {
+                "name": "Diamond Plan",
+                "price": "R$ W",
+                "note": "For those who want close guidance and strategic direction",
+                "cta": "Choose Diamond",
+                "button": "outline",
+                "features": [
+                  "Everything in the Gold Plan.",
+                  "+ 2 hours of 1:1 mentoring with scheduled time.",
+                  "Discussion of architecture, roadmap, or product strategy."
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
